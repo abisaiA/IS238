@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Shuta</string>
+    <string name="logo_image">logo image</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="log_in">log in</string>
+    <string name="forget_password">Forget Password?</string>
 </resources>
