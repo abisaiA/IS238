@@ -6,4 +6,8 @@
     <string name="remember_me">Remember me</string>
     <string name="log_in">log in</string>
     <string name="forget_password">Forget Password?</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_home">Profile</string>
+    <string name="title_dashboard">Course</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
