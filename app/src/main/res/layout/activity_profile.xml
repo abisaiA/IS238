@@ -6,44 +6,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Profile">
+
     <RelativeLayout
+        android:id="@+id/relative"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_height="wrap_content">
+        app:layout_constraintTop_toTopOf="parent">
+
         <ImageView
-            android:layout_width="match_parent"
-            android:src="@drawable/smile"
             android:id="@+id/profileImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/log_in"
             android:foreground="#45000000"
             android:scaleType="centerCrop"
-            android:contentDescription="@string/log_in"
-            android:layout_height="200dp" />
+            android:src="@drawable/smile" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:layout_marginStart="16dp"
-            android:layout_alignBottom="@+id/profileImageView"
-            android:textColor="#fff"
             android:id="@+id/profileNameTextView"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/profileImageView"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="30dp"
             android:text="Saida Ally"
+            android:textColor="#fff"
             android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/profileEmail"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/profileImageView"
-            android:textColor="#fff"
             android:layout_marginStart="16dp"
             android:layout_marginBottom="8dp"
-            android:id="@+id/profileEmail"
-            android:layout_height="wrap_content"
             android:text="saida@email.com"
+            android:textColor="#fff"
             android:textSize="18sp" />
 
     </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/navigation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relative">
+
+    </FrameLayout>
 
 
     <android.support.design.widget.BottomNavigationView
@@ -52,7 +66,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
-
         android:background="?android:attr/windowBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
