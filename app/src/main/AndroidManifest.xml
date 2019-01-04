@@ -18,7 +18,10 @@
         </activity>
         <activity
             android:name=".Profile"
-            android:label="@string/title_activity_profile"></activity>
+            android:theme="@style/AppTheme"
+            android:label="">
+
+        </activity>
     </application>
 
 </manifest>

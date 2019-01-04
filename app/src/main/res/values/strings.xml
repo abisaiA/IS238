@@ -10,4 +10,13 @@
     <string name="title_home">Profile</string>
     <string name="title_dashboard">Results</string>
     <string name="title_notifications">Notifications</string>
+    <string name="name">Saida Ally</string>
+    <string name="email_pro">saida@email.com</string>
+    <string name="fuillname">Fullname</string>
+    <string name="classroom">Class</string>
+    <string name="scholl_info">Nyambari Primary School\nKigogo, Dar es Salaam\nNear Tanesco</string>
+    <string name="position">Position</string>
+    <string name="grade">Grade</string>
+    <string name="marks">Marks</string>
+    <string name="subject">Subject</string>
 </resources>
